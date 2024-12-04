@@ -1,0 +1,9 @@
+services:
+  app:
+
+    hostname: python-app-container
+
+    build: .
+
+    volumes:
+      - ../:/app
