@@ -6,4 +6,4 @@ services:
     build: .
 
     volumes:
-      - ../:/app
+      - ./:/app
