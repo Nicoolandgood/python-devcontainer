@@ -16,6 +16,8 @@ RUN --mount=type=cache,target=/var/cache/apk,sharing=locked \
     echo 'permit nopass :wheel' > /etc/doas.d/doas.conf && \
     adduser -D python-user -G wheel
 
+SHELL [ "ash" ]
+
 USER python-user
 
 WORKDIR /home/python-user
