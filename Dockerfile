@@ -20,4 +20,4 @@ USER python-user
 
 WORKDIR /home/python-user
 
-ENTRYPOINT sleep infinity
+ENTRYPOINT [ "sleep", "infinity" ]
