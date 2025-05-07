@@ -1,4 +1,4 @@
-# Python devcontainer
+# Python devcontainer (Alpine edition 🏔️)
 
 This project is a devcontainer based boilerplate for Python projects.
 
@@ -17,7 +17,7 @@ docker compose up -d --build
 
 And then access its shell with:
 ```sh
-docker compose exec app bash
+docker compose exec app ash
 ```
 
 ## Configuration
